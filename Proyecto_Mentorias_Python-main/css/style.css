@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div.contenedor{
+    display: flex;
+    justify-content: center; 
+}
+footer{
+    /*background-color: rgb(51, 165, 255);*/
+    background: linear-gradient(to right, rgb(8, 44, 139), rgb(51, 165, 255));
+    color: rgb(1, 13, 23);
+    width: 100%;
+
+    text-align: center;
+    position: static;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0;
+    border: 0;
+}
+
+.tinav{
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+
+.nav{
+    background-color: rgb(51, 165, 255);
+    color: rgb(1, 13, 23);
+
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 40px;
+
+    border-radius: 15px;
+}
+
+.navlink{
+    text-align: center;
+
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    padding-left: 25px;
+    padding-right: 40px;
+}
+
+.icono{
+    padding-right: 10px;
+}
+div.categ{
+    display: flex; 
+    flex-direction: row;
+    flex-wrap: nowrap;
+    display: inline-block;
+    justify-content: center;
+    padding: 10px;
+    margin: 10px; 
+    border: 3px solid #ccc;
+    border-color: rgb(1, 13, 23);
+    border-radius: 15px;
+  }
+  
+  a.tcat{
+    background-color: rgb(5, 186, 194);
+    color: rgb(1, 13, 23);
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-color: rgb(1, 13, 23);
+    text-decoration: none;
+  }
+  
+  p.desc{
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    border-color: rgb(1, 13, 23);
+    padding: 5px;
+  }
+  
+  main{
+    padding-bottom: 80px;
+  }
