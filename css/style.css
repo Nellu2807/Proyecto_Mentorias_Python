@@ -68,11 +68,6 @@ header nav{
     background-color: rgb(76, 140, 224);
 }
 
-/* .principal{
-    margin: 0;
-    padding: 20px 0 0;
-    background: #51D94C;
-} */
 
 .container-all{
     width: 100%;
@@ -87,7 +82,7 @@ header nav{
     justify-content: space-evenly;
     gap: 3.5em;
     flex-wrap: wrap; 
-    background: #529AD9;
+   
 }
 
 .title{
@@ -98,19 +93,12 @@ header nav{
     padding: 10px 0;
 }
 
-/* .plogo{
-    display: flex;
-    width: 30%;
-    margin: 0;
-    padding: 10px 0;
-} */
 
-.imglogo{
-    /* display: flex; */
+.imglogo{    
     width:250px;
     height:250px;
     margin: auto;
-    background-color: aqua;
+    
 }
 
 .pexpinf{
@@ -119,8 +107,7 @@ header nav{
     width: 70%;
     margin: 0;
     padding: 15px ;
-    background: #F2637E;
-    
+       
 }
 
 .pexp{
@@ -171,8 +158,7 @@ header nav{
 
 .contenedor{
     margin: auto;
-    padding: 0 50px;
-    background: #9ba237;
+    padding: 0 50px;    
     width: 100%;
     max-width: 1200px;
     margin: auto;
@@ -204,7 +190,6 @@ header nav{
     display: flex;
     gap: 40px;
     padding: 50px;    
-    background-color: blueviolet;
 }
 
 .comentarioca1{
@@ -302,14 +287,13 @@ header nav{
     display: flex;
     flex-direction: column;
     margin: auto;
-    background: #b0daff;
 }
+
 .datos-chicos{
     width: 20%;
     display: flex;
     flex-direction: column;
     margin: auto;
-    background: #51D94C;
     align-items: center;
     margin-left: -30px;
 }
@@ -330,17 +314,9 @@ header nav{
     border-color: #529AD9;
     border-radius: 50px;
     margin: auto;
-    
-        
+           
 }
 
-/* .nombre_Juan{
-    font-weight: bolder;
-    text-align: center;
-    margin: auto;
-    padding: 10px;
-    margin-left: -30px;
-} */
 
 .foto{
     display: flex;
@@ -382,7 +358,7 @@ div.categ{
     border-radius: 15px;
   }
   
-  img.ct{ /*añadí propiedades a la clase ct de img*/
+  img.ct{ 
     height: 200px;
     display: flex;
     margin: 0 auto;
@@ -423,7 +399,6 @@ div.pder p{
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    /*display: inline-block;*/
     justify-content: center;
     text-align: center;
 }
@@ -458,7 +433,7 @@ div.conectate{
 
 div.conectate p{
     border: none;
-    text-decoration: none; /*le puse none pero igual sigue apareciendo un subrayado no se pq*/
+    text-decoration: none; 
     color: black;
     height: 20px;
 }
@@ -472,7 +447,6 @@ main{
     padding-right: 10px;
     width: 30;
 }
-
  
 
 .intro{
@@ -630,7 +604,6 @@ input, textarea{
 
 
 footer{
-    /*background-color: rgb(51, 165, 255);*/
     background: linear-gradient(to right, #529AD9, #b0daff);
     color: rgb(1, 13, 23);
     width: 100%;
