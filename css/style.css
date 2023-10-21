@@ -68,10 +68,11 @@ header nav{
     background-color: rgb(76, 140, 224);
 }
 
-.principal{
+/* .principal{
     margin: 0;
     padding: 20px 0 0;
-}
+    background: #51D94C;
+} */
 
 .container-all{
     width: 100%;
@@ -80,6 +81,13 @@ header nav{
     display: flex;
     gap: 50px;
     padding: 50px 0 10px;
+    display: flex; 
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 3.5em;
+    flex-wrap: wrap; 
+    background: #529AD9;
 }
 
 .title{
@@ -90,18 +98,19 @@ header nav{
     padding: 10px 0;
 }
 
-.plogo{
+/* .plogo{
     display: flex;
     width: 30%;
     margin: 0;
     padding: 10px 0;
-}
+} */
 
 .imglogo{
-    display: flex;
-    width: 100%;
-    height: 100%;
+    /* display: flex; */
+    width:250px;
+    height:250px;
     margin: auto;
+    background-color: aqua;
 }
 
 .pexpinf{
@@ -109,7 +118,8 @@ header nav{
     flex-direction: column;
     width: 70%;
     margin: 0;
-    padding: 10px 0;
+    padding: 15px ;
+    background: #F2637E;
     
 }
 
@@ -129,7 +139,7 @@ header nav{
 
 .explicacion2{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 25px;
+    font-size: 20px;
     text-align: justify;
     margin: auto;
 }
@@ -162,6 +172,20 @@ header nav{
 .contenedor{
     margin: auto;
     padding: 0 50px;
+    background: #9ba237;
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    gap: 50px;
+    padding: 50px 0 10px;
+    display: flex; 
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 3.5em;
+    flex-wrap: wrap; 
+    
 }
 
 .titulo{
@@ -174,12 +198,13 @@ header nav{
 }
 
 .caso{
-    width: 90%;
+    width: 100%;   
     max-width: 1200px;
-    margin: auto;
+    margin: 0 auto;
     display: flex;
-    gap: 10px;
-    padding: 50px 0;
+    gap: 40px;
+    padding: 50px;    
+    background-color: blueviolet;
 }
 
 .comentarioca1{
@@ -235,6 +260,7 @@ header nav{
     transition: transform 2s;
     visibility: hidden;
     position: relative;
+    
 }
 
 .comentarioco1.visible{
@@ -276,6 +302,16 @@ header nav{
     display: flex;
     flex-direction: column;
     margin: auto;
+    background: #b0daff;
+}
+.datos-chicos{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    background: #51D94C;
+    align-items: center;
+    margin-left: -30px;
 }
 
 .pichica{
@@ -294,7 +330,17 @@ header nav{
     border-color: #529AD9;
     border-radius: 50px;
     margin: auto;
+    
+        
 }
+
+/* .nombre_Juan{
+    font-weight: bolder;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+    margin-left: -30px;
+} */
 
 .foto{
     display: flex;
@@ -314,6 +360,7 @@ header nav{
     display: flex;
     margin: auto;
     font-size: 20px;
+
 }
 
 /* FIN INDEX */
