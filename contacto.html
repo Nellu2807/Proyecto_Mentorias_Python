@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>MentorElite</title>    
+    <link rel="shortcut icon" href="favicom/brujula.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body> 
+<header>
+        <div class="logo">
+          <h1 class="Nombrepagina"> MentorElite </h1>
+          <img src="./Imagenes/brujula.png" alt="Logo">
+          </div>
+          <br>
+              <nav class="nav">
+                  <a class="navlink" href="./index.html">Home</a>
+                  <a class="navlink" href="./quienes_somos.html">Quienes somos</a>
+                  <a class="navlink" href="./categorias.html">Categorías</a>
+                  <a class="navlink" href="./contacto.html">Contacto</a>
+              </nav>
+</header>
+
+<main> 
+  
+    <div class="text-container">
+      <div class="contenedor-mapa">
+      <div class="texto-formulario">      
+        <p class="tg">"¡Gracias por visitar MentorElite! </p>
+        <p> Estamos emocionados de conocerte y 
+            ayudarte en tu camino hacia el aprendizaje y 
+            el crecimiento personal. Por favor, 
+            completa nuestro formulario a continuación 
+            para que podamos entender mejor tus necesidades 
+            y ofrecerte la mejor experiencia posible. </p>
+         <p>Tu información está segura con nosotros, 
+            y juntos, estamos a un paso más cerca de alcanzar tus metas.
+            ¡Esperamos saber más de ti!"
+         </p>
+      </div>
+
+      <section class="mapa">
+        
+        <h3>Encuentranos aqui!</h3>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.7648050212497!2d-58.3957509255373!3d-34.58481725649809!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccaa1eb4e7ad1%3A0x8bcb7db37f6f9421!2sPlaza%20Francia!5e0!3m2!1ses-419!2sar!4v1697330553972!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </section> 
+      </div>
+      <div>
+        <form id="miFormulario" onsubmit="return validarFormulario()">
+          <p>Formulario del contacto</p>
+
+          <div class="grupo-input">           
+          
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Ingresa tu nombre">
+               
+            <label for="apellido">Apellido</label>
+            <input type="text" id="apellido" name="apellido" placeholder="Ingresa tu apellido">
+          
+            <label for="email">Ingresa tu email</label>
+            <input type="email" id="email" name="email" placeholder="test@ejemplo.com">
+                   
+            <label for="tel">Ingresa tu telefono</label>
+            <input type="tel" id="tel"  name="tel" placeholder="Teléfono">
+
+            <label for="mensaje">En que podemos ayudarte? : </label>
+            <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
+          
+            <input class="btn-form" type="submit" value="Enviar">            
+       
+          </div>
+        </form>
+      </div>
+    
+    </div>
+</section>  
+
+<section class="intro"> 
+  <section class="words">
+        <span>MentorElite</span>     
+  </section>
+</section>   
+
+</main>   
+<footer>
+        <a class="icono" href="whatsapp.com"><img src="./Imagenes/whatsapp.png"></a>
+        <a class="icono" href="twitter.com"><img src="./Imagenes/gorjeo.png"></a>
+        <a class="icono" href="twitter.com"><img src="./Imagenes/instagram.png"></a>
+        <a class="icono" href="twitter.com"><img src="./Imagenes/facebook.png"></a>
+        <a class="icono" href="twitter.com"><img src="./Imagenes/telegram.png"></a>
+        <p>Derechos reservados 2023</p>
+</footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>  
+    <script src="./JS/validación.js"></script>
+</body>
+</html>
