@@ -3,6 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
 
 /* INDEX */
 
@@ -722,6 +728,12 @@ footer img{
   
     .dropdown-menu.active {
       display: flex;
+    }
+  }
+  @media (max-width: 768px) {
+    body {
+      margin: 0;
+      padding: 0;
     }
   }
   
