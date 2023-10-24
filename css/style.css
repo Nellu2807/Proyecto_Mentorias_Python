@@ -44,7 +44,7 @@ header nav{
     border-radius: 15px;
     border: 6px inset #529AD9;
 }
-
+  
 .navlink{
     justify-content: center;
     text-align: center;
@@ -71,18 +71,14 @@ header nav{
 
 .container-all{
     width: 100%;
-    max-width: 1200px;
-    margin: auto;
-    display: flex;
-    gap: 50px;
-    padding: 50px 0 10px;
+    gap: 10px;
+    padding: 30px 0 0;
     display: flex; 
     flex-direction: row;
     align-items: center;
-    justify-content: space-evenly;
-    gap: 3.5em;
+    justify-content: center;
     flex-wrap: wrap; 
-   
+    
 }
 
 .title{
@@ -106,7 +102,7 @@ header nav{
     flex-direction: column;
     width: 70%;
     margin: 0;
-    padding: 15px ;
+    padding: 10px 0;
        
 }
 
@@ -129,6 +125,7 @@ header nav{
     font-size: 20px;
     text-align: justify;
     margin: auto;
+    padding-bottom: 10px;
 }
 
 .pinf{
@@ -142,7 +139,7 @@ header nav{
     text-decoration: none;
     font-size: 25px;
     margin: auto;
-    padding: 15px;
+    padding: 10px 0;
 }
 
 .masinfo{
@@ -151,27 +148,26 @@ header nav{
 }
 
 .pextra{
-    display: flex;
-    margin: auto;
-    padding: 0 75px;
-}
-
-.contenedor{
-    margin: auto;
-    padding: 0 50px;    
     width: 100%;
     max-width: 1200px;
-    margin: auto;
     display: flex;
-    gap: 50px;
-    padding: 50px 0 10px;
+    margin: auto;
+    padding: 10px 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.contenedori{
+    margin: auto;  
+    width: 100%;
+    max-width: 1200px;    
+    display: flex;
+    padding: 10px 0 10px;
     display: flex; 
     flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
-    gap: 3.5em;
+    align-items: center;    
+    justify-content: center;
     flex-wrap: wrap; 
-    
 }
 
 .titulo{
@@ -180,7 +176,6 @@ header nav{
     text-align: center;
     font-weight: bolder;
     margin: auto;
-    padding-top: 50px;
 }
 
 .caso{
@@ -244,8 +239,7 @@ header nav{
     transform: translateY(10vh);
     transition: transform 2s;
     visibility: hidden;
-    position: relative;
-    
+    position: relative; 
 }
 
 .comentarioco1.visible{
@@ -313,8 +307,7 @@ header nav{
     border: 3px solid;
     border-color: #529AD9;
     border-radius: 50px;
-    margin: auto;
-           
+    margin: auto;         
 }
 
 
@@ -340,6 +333,8 @@ header nav{
 }
 
 /* FIN INDEX */
+
+/* CATEGORIAS */
 
 img.imgcat{
     height: 200px;
@@ -381,7 +376,7 @@ div.categ{
     padding: 5px;
   }
 
-/*PERFILES*/ 
+/* CATEGORIAS - PERFILES*/ 
 div.pizq p{
     border: 1px solid #ccc;
     border-radius: 8px;
@@ -420,7 +415,7 @@ main.perfiles{
     padding-top: 40px;
 }
 
-img.fpf{ /*este es para que la img quede centrada dentro de su caja*/
+img.fpf{ 
     display: flex;
     margin: 0 auto;
     padding-bottom: 6px;
@@ -438,6 +433,27 @@ div.conectate p{
     height: 20px;
 }
 
+
+#main_categ{ 
+    display: flex;
+    justify-content: center;
+}   
+
+#main_prog{ 
+    display: flex;
+    justify-content: center;
+}   
+
+.buscador{
+    display: flex;
+    justify-content: center;
+}
+
+.volver{
+    display: flex;
+    margin-left: 90px;
+}
+
 /*main iconos y footer*/
 main{
     padding-bottom: 80px;
@@ -453,7 +469,7 @@ main{
     display: flex;
     flex-direction: row;  
     justify-content:center;
-    width: 100%;
+    width: 70%;
 }
   
 .words{
@@ -472,11 +488,67 @@ main{
 /* QUIENES SOMOS */
  .explicacion{
     margin: auto;
-    padding: 40px 0;
+    padding: 20px 0;
     text-align: justify;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
  }
+
+ .contenedorq{
+    margin: auto;
+    padding: 0 50px;    
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    display: flex; 
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap; 
+}
+
+.casoq{
+    width: 100%;   
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    gap: 40px;
+    padding: 50px;    
+}
+
+.comentarioca{
+    display: flex;
+    width: 80%;
+    text-align: center;
+    border: 3px solid;
+    border-color: #F2637E;
+    border-radius: 20px;
+    background-color: #fdccd5;
+    box-shadow:0 0 25px #F2637E;
+}
+
+.comentarioco{
+    display: flex;
+    width: 80%;
+    text-align: center;
+    border: 3px solid;
+    border-color: #529AD9;
+    border-radius: 20px;
+    background-color: #b0daff;
+    box-shadow:0 0 25px #529AD9; 
+}
+
+.textoq{
+    display: flex;
+    margin: auto;
+    padding: 20px 5px;
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 20px;
+    text-align: justify;
+}
+
 
 /* FIN DE QUIENES SOMOS */
 
@@ -633,3 +705,23 @@ footer img{
       transform: translate(30%, 0);
     }
   }
+
+
+  @media (max-width: 768px) {
+    .menu-toggle {
+      display: flex;
+    }
+  
+    .navlink {
+      display: block;
+      margin: 10px 0;
+      text-decoration: none;
+      color: #fff;
+      font-size: 18px;
+    }
+  
+    .dropdown-menu.active {
+      display: flex;
+    }
+  }
+  
