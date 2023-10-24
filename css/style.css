@@ -76,14 +76,19 @@ header nav{
 
 
 .container-all{
+    margin: auto;
+    padding: 0 50px;    
     width: 100%;
     max-width: 1200px;
-    display: flex;
     margin: auto;
-    padding: 10px 30px;
-    justify-content: center;
-    flex-wrap: wrap;
+    display: flex; 
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap; 
 }
+    
+  
 
 .title{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
