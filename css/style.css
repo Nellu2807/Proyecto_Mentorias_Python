@@ -100,25 +100,12 @@ header nav{
 
 
 .imglogo{    
-    width:250px;
-    height:250px;
+    width:150px;
+    height:150px;
     margin: auto;
     
 }
 
-.pexpinf{
-    display: flex;
-    flex-direction: column;
-    width: 70%;
-    margin: 0;
-    padding: 10px 0;
-       
-}
-
-.pexp{
-    margin: auto;
-    padding: 10px 0;
-}
 
 .explicacion1{
     font-family:'Times New Roman', Times, serif;
@@ -126,7 +113,7 @@ header nav{
     text-align: center;
     font-weight: bolder;
     margin: auto;
-    padding: 20px 0;
+    padding: 10px 0;
 }
 
 .explicacion2{
@@ -344,7 +331,26 @@ header nav{
 /* FIN INDEX */
 
 /* CATEGORIAS */
-
+.categorias{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; 
+}
+.programacion {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .categ {
+    flex: 1;
+    max-width: 300px; 
+    text-align: center;
+    margin: 10px; 
+  }
+  
 img.imgcat{
     height: 200px;
 }
@@ -390,14 +396,15 @@ div.pizq p{
     border: 1px solid #ccc;
     border-radius: 8px;
     border-color: black;
-    width: 400px;
+    max-width: 100%;
     display: flex;
     justify-content: center;
     text-align: center;
 }
 
 div.pder p{
-    width: 400px;
+    /* width: 400px; */
+    max-width: 100%;
     border: 2px solid;
     border-color: black;
     display: flex;
@@ -415,15 +422,25 @@ div.pder h2{
 
 div.pizq, div.pder{
     padding: 10px;
+    max-width: 600px;
+
+}
+h1{
+    text-align: center;
+    padding:20px;
 }
 
-main.perfiles{
+
+.perfiles {    
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
-    padding: 20px;   
-}
+    text-align: center;
+    padding: 20px;
+    max-width: 600px; 
+    margin: 0 auto; 
+  }
+   
 
 img.fpf{ 
     display: flex;
@@ -431,10 +448,11 @@ img.fpf{
     padding-bottom: 6px;
 }
 
-div.conectate{
+.conectate {
     display: flex;
-    border: 2px solid;
-}
+    align-items: center;
+    justify-content: center;
+  }
 
 div.conectate p{
     border: none;
@@ -442,7 +460,15 @@ div.conectate p{
     color: black;
     height: 20px;
 }
-
+.ana_descripcion{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    max-width: 600px; 
+    margin: 0 auto; 
+    padding: 20px;
+    border: 1px solid #ccc; 
+}
 
 #main_categ{ 
     display: flex;
@@ -457,12 +483,30 @@ div.conectate p{
 .buscador{
     display: flex;
     justify-content: center;
+   
 }
 
-.volver{
+
+.volver {
     display: flex;
     margin-left: 90px;
-}
+  }
+  
+.boton-volver {
+    background-color: #86b8e3; 
+    color: #fff;
+    border: none;
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s;
+    margin-bottom: 20px; 
+  }
+  
+  .boton-volver:hover {
+    background-color: #0056b3; 
+  }
+  
 
 /*main iconos y footer*/
 main{
@@ -624,7 +668,7 @@ section iframe{
 form{
     padding: 50px 55px;
     padding: 50px 55px;
-    background-color: white;
+    /* background-color: white; */
     box-shadow:0 0 20px rgba( 0,0,0,0.2);
     border-radius: 20px;
     text-align: center;
